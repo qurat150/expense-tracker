@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(245, 245, 255, 0.938);
+}
+
+.heading-top {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    margin-top: 40px;
+}
+
+.p-margin {
+    margin-top: 20px;
+}
+
+.incomeExpense {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 110px;
+    box-shadow: 5px 5px 10px #888888;
+    margin-top: 20px;
+    background-color: white;
+}
+
+#income,
+.description,
+.amount {
+    color: #b6960a;
+}
+
+#expense {
+    color: #2da3ad;
+}
+
+.borderRight {
+    border-right: 1px solid rgb(94, 94, 94);
+    height: 60px;
+}
+
+.borderBottom {
+    border-bottom: 1px solid rgb(145, 145, 145);
+    margin-top: 10px;
+}
+
+.transactionHistoryDisplayNone {
+    height: 40px;
+    position: relative;
+    /* display: none; */
+}
+
+.delete-icon {
+    position: absolute;
+    right: -30px;
+    opacity: 1;
+    /* transition: 0.3s; */
+    cursor: pointer;
+}
+
+/* .transactionHistoryDisplayNone:hover .delete-icon {
+    opacity: 1;
+} */
+
+.fa-solid {
+    font-size: 25px;
+    display: inline-block;
+}
+
+.descriptStrt {
+    text-align: start;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#inputDescript,
+#inputAmount,
+#btn {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 6px;
+}
+
+#btn {
+    background-color: darkcyan;
+    /* width: 100%; */
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+
+}

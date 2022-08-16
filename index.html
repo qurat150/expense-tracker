@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense-tracker</title>
+    <link rel="stylesheet" href="assists/css/style.css">
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+</head>
+
+<body>
+    <div class="main">
+        <p class="heading-top">Expense Tracker by Qurat ul Ain</p>
+        <p class="p-margin">CURRENT BALANCE</p>
+        <h1 id="currentBalance" class="showValue">0.00</h1>
+        <div class="incomeExpense">
+            <div class="income">
+                <h5>INCOME</h5>
+                <h3 id="income" class="showValue">0.00</h3>
+            </div>
+            <div class="borderRight"></div>
+            <div class="expense">
+                <h5>EXPENSE</h5>
+                <h3 id="expense">0.00</h3>
+            </div>
+        </div>
+        <p class="heading-top">Transaction History</p>
+        <div class="borderBottom"></div>
+
+        <div id="history">
+            <!-- <div class="transactionHistoryDisplayNone incomeExpense">
+                <div>
+                    <p class="description">0.00</p>
+                </div>
+                <div>
+                    <p class="amount showValue">0.00</p>
+                </div>
+                <div class="delete-icon">
+                    <i class="fa-solid fa-circle-xmark">x</i>
+                </div>
+            </div> -->
+        </div>
+
+        <!-- <div class="delete-icon">
+            <i class="fa-solid fa-circle-xmark"></i>
+        </div> -->
+
+        <p class="heading-top">Add New Transaction</p>
+        <div class="borderBottom"></div>
+        <p class="descriptStrt">Description</p>
+        <input type="text" placeholder="Detail of Description" id="inputDescript">
+        <p class="descriptStrt">Transaction Amount</p>
+        <input type="number" placeholder="Dollar Value of Transaction" id="inputAmount">
+        <button id="btn">Add Transaction</button>
+    </div>
+</body>
+
+<script src="./assists/js/app.js"></script>
+
+</html>
